@@ -1,0 +1,17 @@
+1.	Get GitBash
+2.	Run GitBash CMD for Windows
+3.	Go to Git repository folder on your computer (i.e. C:\Users\Robotics\Documents\GitHub\2022-Rapid-React-Development)
+
+4.	Go to GitHub Online
+5.	Go to history commits of the repo root folder
+6.	Choose the commit date and time you want entire repo restored from.
+7.	Click on the double squares on the right to “Copy the full SHA” into memory (this is your hash).
+
+8.	Go back to your GitBash CMD for Windows
+9.	Git reset --hard <hash>           (that is a double dash in front of “hard”; paste your SHA for the hash) 
+10.	Git push -f	(overwrite & commit history; it will prompt for credentials)
+
+11.	Back on the laptops that need repo’s restored, DO NOT OPEN GitHub Desktop.
+12.	Go to GitHub repos on your laptop
+13.	Delete the entire repo and all folders in it
+14.	Open GitHub Desktop and Clone the repository to your laptop again (use the URL for cloning).
