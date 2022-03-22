@@ -1,0 +1,22 @@
+Uninstalling all National Instruments software
+
+Run NI Package Manager and remove all.
+
+Uninstall any remainder NI software under Programs in Control Panel.
+
+Run msiBlast.exe application to remove any stubborn NI programs that cannot be uninstalled.
+
+Physically delete all National Instruments folder under following:
+Program Files
+Program Files (x86)
+ProgramData
+%appdata% in users Local folder
+
+In registry, delete National Instruments branches in both HKCU and HKLM under Software.
+
+Reboot computer and reinstall software.
+Install FRC LabVIEW base software.
+Install FRC Game Tools software.
+Install CTRE Phoenix Framework v5.21.1.0
+Install revLib-labVIEW-2022.0.0
+Install rev-spark-max_1.5.2
