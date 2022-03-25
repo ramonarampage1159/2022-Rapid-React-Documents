@@ -1,0 +1,14 @@
+Turn on your robot.
+Make sure your radio is on.
+Connect to radio WiFi.
+Build your robot code and note where your build files are.
+Use FileZilla secure ftp to connect to your roboRIO via WiFi.
+Log into roboRIO with FileZilla at following:
+	host: 10.11.59.2
+	user: lvuser
+	password: (blank)
+	port: 22
+Locate path to Bin folder with the startup files.
+Copy your new robot build startup files into roboRIO and overwrite those on robot.
+
+This is the equivalent of using the "Run at Startup" in LabVIEW.
