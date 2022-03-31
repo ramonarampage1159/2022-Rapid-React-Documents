@@ -1,0 +1,6 @@
+To Configure a robot to work as 1158
+
+1. Change the radio
+2. Change the roborio
+3. Change the driver station
+4. Change the code 
